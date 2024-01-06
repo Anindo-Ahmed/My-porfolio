@@ -3,12 +3,16 @@
     margin: 0;
     box-sizing: border-box;
 }
-
+/* navigation section style */
 #hero {
-    height: 100vh;
-    width: 100%;
-    /* background: #f7dcdcd0; */
+    /* height: 100vh;
+    width: 100%; */
+    background: #fff8f3;
+    background-image: url('img/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
+
 .navbar{
     width: 90%;
     margin: 0 auto;
@@ -42,16 +46,18 @@
 .navbar li a:hover{
     color: #fff;
 }
+/* banner section style */
 .content {
     margin-left: 10%;
     position: relative;
     top:50%;
     transform: translate(0, -50%);
 }
-.content h1{
+.introduction h1{
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 3em;
     letter-spacing: .06cm;
+    
 }
 .content p{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -71,12 +77,12 @@ button {
     cursor: pointer;
 }
 .my-img {
-    position: absolute;
-    top:50%;
-    right: 10%;
-    transform: translate(0%, -60%);
-    width: 30%;
-    clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%);
+    
+    transform: translate(0%, -80%);
+    width: 500px;
+    float: right;
+    /* position: bottom right; */
+    
 }
 main {
     text-align: center;
@@ -86,7 +92,12 @@ main {
     height: 100vh;
     margin: auto;
 }
+section {
+    text-align: center;
+    margin: 0 auto;
+}
 section > h1 {
+    text-align: center;
     font-size: 2.5em;
     margin-top: 50px;
 }
@@ -120,12 +131,12 @@ hr{
     margin: 30px;
 }
 .para button{
-    margin: 25px;
+    margin: 55px 25px;
     display: block;
 }
 .about img{
-    width: 100%;
-    height: 250px;
+    width: 90%;
+    height: 320px;
     position: relative;
     transform: translate(0%, 15%);
     box-shadow: 15px 15px #EC5B53;
