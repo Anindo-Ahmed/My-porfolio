@@ -183,7 +183,7 @@ hr{
     display: flex;
     justify-content: space-between;
     background: #fff8f3;
-    padding: 100px 250px;
+    padding: 100px 250px 20px;
     margin-top: 130px;
 }
 .footer-connect{
@@ -195,9 +195,6 @@ hr{
 }
 .footer-connect p{
     font-size: 16px;
-}
-.footer-form {
-    width:460px;
 }
 input{
     display: block;
